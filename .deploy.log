@@ -1,0 +1,67 @@
+tarting migrations...
+======================
+> Network name:    'ropsten'
+> Network id:      3
+> Block gas limit: 8000000 (0x7a1200)
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0x881674005bfba7bd7beea755e04c60b812bf954055cb724279d6e75feb47ea22
+   > Blocks: 2            Seconds: 9
+   > contract address:    0x7024BDb4Ba987ab75A6186B16448E8991F4f9D4B
+   > block number:        11524891
+   > block timestamp:     1638259348
+   > account:             0x68913EdB78a8FfC8f8b86E4c77329302abe1308B
+   > balance:             0.292137948099977295
+   > gas used:            226537 (0x374e9)
+   > gas price:           1.500000013 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000339805502944981 ETH
+
+   Pausing for 2 confirmations...
+   ------------------------------
+   > confirmation number: 1 (block: 11524895)
+   > confirmation number: 2 (block: 11524896)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.000339805502944981 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'StarNotary'
+   ----------------------
+   > transaction hash:    0x654d0e638befbd28f66bfa919ae2a3ba8ea3458a42473a8ff63d62e6e9e619a4
+   > Blocks: 4            Seconds: 29
+   > contract address:    0x6e06b0c5506b38904fb2A6DABAd13f8D79CeE4fC
+   > block number:        11524905
+   > block timestamp:     1638259430
+   > account:             0x68913EdB78a8FfC8f8b86E4c77329302abe1308B
+   > balance:             0.288674437567788486
+   > gas used:            2263244 (0x2288cc)
+   > gas price:           1.500000014 gwei
+   > value sent:          0 ETH
+   > total cost:          0.003394866031685416 ETH
+
+   Pausing for 2 confirmations...
+   ------------------------------
+   > confirmation number: 1 (block: 11524907)
+   > confirmation number: 2 (block: 11524908)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.003394866031685416 ETH
+
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.003734671534630397 ETH
